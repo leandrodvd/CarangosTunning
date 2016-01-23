@@ -25,7 +25,7 @@ public class WebClient {
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpGet get = new HttpGet(url);
-
+//
             MyLog.i("EFETUANDO O GET PARA URL: " + this.url);
 
             get.setHeader("Accept", "application/json");
